@@ -13,5 +13,5 @@ const btn = document.querySelector('.toggle-btn')
 const menu = document.querySelector('#side-bar');
 
 btn.addEventListener('click', () => {
-    menu.classList.toggle('active')
+    menu.classList.toggle('active');
 })
